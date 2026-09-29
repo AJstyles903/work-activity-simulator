@@ -1,4 +1,4 @@
-# Work Activity Simulator – Smart Idle Detection for AutoHotkey
+# Work Activity Simulator – Smart Idle Detection & Dashboard
 
 <a name="top"></a>
 
@@ -6,7 +6,6 @@
 [![Language](https://img.shields.io/badge/language-AHK%20(v2)-33AA33)](https://www.autohotkey.com/docs/v2/)
 [![OS](https://img.shields.io/badge/OS-Windows%207%2B-0078D4)](https://www.autohotkey.com/)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-available-brightgreen.svg?logo=image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+T3BlbkFJPC90aXRsZT48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIuMjgxOSA5LjgyMTFhNS45ODQ3IDUuOTg0NyAwIDAgMC0uNTE1Ny00LjkxMDggNi4wNDYyIDYuMDQ2MiAwIDAgMC02LjUwOTgtMi45QTYuMDY1MSA2LjA2NTEgMCAwIDAgNC45ODA3IDQuMTgxOGE1Ljk4NDcgNS45ODQ3IDAgMCAwLTMuOTk3NyAyLjkgNi4wNDYyIDYuMDQ2MiAwIDAgMCAuNzQyNyA3LjA5NjYgNS45OCA1Ljk4IDAgMCAwIC41MTEgNC45MTA3IDYuMDUxIDYuMDUxIDAgMCAwIDYuNTE0NiAyLjkwMDFBNS45ODQ3IDUuOTg0NyAwIDAgMCAxMy4yNTk5IDI0YTYuMDU1NyA2LjA1NTcgMCAwIDAgNS43NzE4LTQuMjA1OCA1Ljk4OTQgNS45ODk0IDAgMCAwIDMuOTk3Ny0yLjkwMDEgNi4wNTU3IDYuMDU1NyAwIDAgMC0uNzQ3NS03LjA3Mjl6bS05LjAyMiAxMi42MDgxYTQuNDc1NSA0LjQ3NTUgMCAwIDEtMi44NzY0LTEuMDQwOGwuMTQxOS0uMDgwNCA0Ljc3ODMtMi43NTgyYS43OTQ4Ljc5NDggMCAwIDAgLjM5MjctLjY4MTN2LTYuNzM2OWwyLjAyIDEuMTY4NmEuMDcxLjA3MSAwIDAgMSAuMDM4LjA1MnY1LjU4MjZhNC41MDQgNC41MDQgMCAwIDEtNC40OTQ1IDQuNDk0NHptLTkuNjYwNy00LjEyNTRhNC40NzA4IDQuNDcwOCAwIDAgMS0uNTM0Ni0zLjAxMzdsLjE0Mi4wODUyIDQuNzgzIDIuNzU4MmEuNzcxMi43NzEyIDAgMCAwIC43ODA2IDBsNS44NDI4LTMuMzY4NXYyLjMzMjRhLjA4MDQuMDgwNCAwIDAgMS0uMDMzMi4wNjE1TDkuNzQgMTkuOTUwMmE0LjQ5OTIgNC40OTkyIDAgMCAxLTYuMTQwOC0xLjY0NjR6TTIuMzQwOCA3Ljg5NTZhNC40ODUgNC40ODUgMCAwIDEgMi4zNjU1LTEuOTcyOFYxMS42YS43NjY0Ljc2NjQgMCAwIDAgLjM4NzkuNjc2NWw1LjgxNDQgMy4zNTQzLTIuMDIwMSAxLjE2ODVhLjA3NTcuMDc1NyAwIDAgMS0uMDcxIDBsLTQuODMwMy0yLjc4NkE0LjUwNCA0LjUwNCAwIDAgMSAyLjM0MDggNy44NzJ6bTE2LjU5NjMgMy44NTU4TDEzLjEwMzggOC4zNjQgMTUuMTE5MiA3LjJhLjA3NTcuMDc1NyAwIDAgMSAuMDcxIDBsNC44MzAzIDIuNzkxM2E0LjQ5NDQgNC40OTQ0IDAgMCAxLS42NzY1IDguMTA0MnYtNS42NzcyYS43OS43OSAwIDAgMC0uNDA3LS42Njd6bTIuMDEwNy0zLjAyMzFsLS4xNDItLjA4NTItNC43NzM1LTIuNzgxOGEuNzc1OS43NzU5IDAgMCAwLS43ODU0IDBMOS40MDkgOS4yMjk3VjYuODk3NGEuMDY2Mi4wNjYyIDAgMCAxIC4wMjg0LS4wNjE1bDQuODMwMy0yLjc4NjZhNC40OTkyIDQuNDk5MiAwIDAgMSA2LjY4MDIgNC42NnpNOCAzMDY1IDEyLjg2M2wtMi4wMi0xLjE2MzhhLjA4MDQuMDgwNCAwIDAgMS0uMDM4LS4wNTY3VjYuMDc0MmE0LjQ5OTIgNC40OTkyIDAgMCAxIDcuMzc1Ny0zLjQ1MzdsLS4xNDIuMDgwNUw4LjcwNCA1LjQ1OWEuNzk0OC43OTQ4IDAgMCAwLS4zOTI3LjY4MTd6bTEuMDk3Ni0yLjM2NTRsMi42MDItMS40OTk4IDIuNjA2OSAxLjQ5OTh2Mi45OTk0bC0yLjU5NzQgMS40OTk3LTIuNjA2Ny0xLjQ5OTdaIi8+PC9zdmc+)](https://chatgpt.com/)
 
 ⭐ Star this script if it helps you stay "active" during remote work! 🙏
 
@@ -19,40 +18,39 @@
 ---
 
 ## Table of Contents
-- [About](#-about)
-- [Features](#-features)
-- [Hotkeys](#-hotkeys)
-- [How It Works](#-how-it-works)
-- [Use Cases & Ethical Note](#-use-cases--ethical-note)
-- [Requirements](#-requirements)
-- [Installation & Usage](#-installation--usage)
-- [Customization](#-customization)
-- [Compilation (EXE)](#-compilation-exe)
-- [Feedback & Contributions](#-feedback-and-contributions)
+- [🚀 About](#-about)
+- [✨ Features](#-features)
+- [⌨️ Hotkeys](#-hotkeys)
+- [🖥️ The Dashboard & Tray Icon](#-the-dashboard--tray-icon)
+- [🔍 How It Works](#-how-it-works)
+- [🧪 Use Cases & Ethical Note](#-use-cases--ethical-note)
+- [📥 Installation & Usage](#-installation--usage)
+- [🛠️ Customization & Custom Icons](#-customization--custom-icons)
+- [📦 Compilation (EXE)](#-compilation-exe)
+- [🤝 Feedback and Contributions](#-feedback-and-contributions)
 
 ---
 
 ## 🚀 About
 
-**Work Activity Simulator** is a smart AutoHotkey v2 script that mimics real user input (mouse movement, scrolling, and keyboard presses) to prevent systems from detecting idle time. It includes **manual control modes** and an **auto-detection mode** that activates only when you’ve been truly idle for a configurable duration.
+**Work Activity Simulator** is a smart AutoHotkey v2 script that mimics real user input (mouse movement, scrolling, and keyboard presses) to prevent systems from detecting idle time. 
 
-Designed with realism in mind, the script:
-- Uses natural mouse movement algorithms (easing, micro-jitters).
-- Randomizes timing and actions to avoid detection by monitoring software.
-- **Ignores its own generated input** to avoid false activity loops.
-- Supports multiple activation strategies: mouse-only, keyboard-only, or combined.
-
-Ideal for developers, remote workers, or testers who need to keep systems awake during legitimate breaks—without triggering “idle” flags in monitoring tools.
+Unlike older scripts that pop up annoying windows on startup, this version is **background-first**. It runs silently in your system tray and features a **beautiful live dashboard** that you can summon only when you need it. It uses native Windows APIs to track your real activity, ensuring zero hotkey-flood errors and perfect auto-detection.
 
 ---
 
 ## ✨ Features
 
-- **Manual Control**: Trigger specific activity types on demand.
-- **Auto Idle Detection**: Automatically starts simulating activity after 30 seconds of real inactivity.
-- **Smart Input Filtering**: Ignores self-generated events to avoid feedback loops.
-- **Natural Movements**: Mouse moves with human-like acceleration and randomness.
-- **Configurable Thresholds**: Adjust idle time, activity intervals, and more.
+- **Background-First Design**: Starts completely hidden in the system tray. No intrusive windows on launch.
+- **Live Dashboard GUI**: A clean, grouped dashboard showing real-time State, Mode, Uptime, Auto-Idle status, and exact Idle timers.
+- **Rich Tray Integration**: 
+  - **Hover** the tray icon to see live status (Running/Stopped, Mode, Uptime).
+  - **Right-click** for a full control menu.
+  - **Double-click** to open the dashboard.
+- **System-Wide Input Detection**: Uses the Windows API (`GetLastInputInfo`) instead of fragile hotkey hooks. Detects *all* system input flawlessly without triggering "hotkey flood" warnings.
+- **Smart Self-Awareness**: Flags its own simulated input so it never accidentally counts its own mouse moves as "user activity" (preventing auto-mode from instantly stopping itself).
+- **Custom Tray Icons**: Supports optional custom `.ico` files to visually change the tray icon when Running vs. Stopped.
+- **Natural Movements**: Mouse moves with human-like acceleration, easing, and micro-jitters.
 - **Emergency Stop**: Instantly halt all simulated activity.
 
 ---
@@ -67,30 +65,45 @@ Ideal for developers, remote workers, or testers who need to keep systems awake 
 | `Ctrl + Alt + Shift + C` | Start **All Combined** |
 | `Ctrl + Alt + Shift + A` | **Toggle Auto Idle Detection** ON/OFF |
 | `Ctrl + Alt + Shift + Z` | **Emergency Stop** (kill all activity) |
+| `Ctrl + Alt + Shift + G` | **Toggle Dashboard** (Show/Hide GUI) |
 | `Ctrl + Alt + X` | Exit the script entirely |
 
-> 💡 Tray notifications confirm each action.
+> 💡 Tray notifications and the Dashboard will confirm each action instantly.
+
+---
+
+## 🖥️ The Dashboard & Tray Icon
+
+Because the script starts hidden, all interaction happens through the System Tray (bottom right of your taskbar) or the Dashboard.
+
+### 1. The System Tray
+- **Hover**: Simply move your mouse over the tray icon to see a tooltip with: `RUNNING/STOPPED`, `Current Mode`, `Uptime`, and `Idle Time`.
+- **Right-Click**: Opens a menu to start specific modes, toggle auto-detection, open the dashboard, or exit.
+- **Double-Click**: Instantly opens the Dashboard.
+
+### 2. The Dashboard
+Open it via `Ctrl+Alt+Shift+G` or the tray menu. It provides a deep dive into the script's state:
+- **Current Status**: Mode, State (Green RUNNING / Red STOPPED), Uptime (`HH:MM:SS`), Auto-arm status, and exact seconds idle.
+- **Start Activity**: Clickable buttons for all manual modes.
+- **Controls**: Quick access to Auto-Detection and Emergency Stop.
 
 ---
 
 ## 🔍 How It Works
 
-1. **Activity Tracking**: The script monitors real user input (mouse clicks, keypresses, etc.).
+1. **API Activity Tracking**: Instead of using dozens of `~key::` hooks (which cause hotkey-flood warnings when you type fast), the script polls the Windows API `GetLastInputInfo` every 500ms. This detects *any* real system input (mouse moves, clicks, keys) natively.
 2. **Idle Detection**: If no real input is detected for **30 seconds** (configurable), auto-mode activates.
-3. **Simulation**: Performs randomized, human-like actions:
-   - Mouse moves within screen bounds.
-   - Scroll wheel activity (up/down).
-   - Keyboard inputs (F-keys, arrows, Ctrl/Alt combos).
-4. **Self-Awareness**: Uses a counter (`g_ignore_next_input`) to skip events it generates.
-5. **Auto-Stop**: If real user input resumes, simulation stops immediately.
+3. **Simulation**: Performs randomized, human-like actions (mouse moves within screen bounds, scroll wheel, F-keys, arrows).
+4. **Self-Awareness Flag**: While the script is generating an action, it sets `g_self_input_active := true`. This ensures the Windows API doesn't count the script's *own* simulated mouse moves as "user activity", which prevents the auto-mode from instantly shutting itself off.
+5. **Auto-Stop**: The moment *real* user input resumes, simulation stops immediately so it never fights you while you work.
 
 ---
 
 ## 🧪 Use Cases & Ethical Note
 
 ### ✅ Legitimate Uses:
-- Preventing screen lock during long-running processes.
-- Keeping remote desktop sessions alive.
+- Preventing screen lock during long-running processes or reading documentation.
+- Keeping remote desktop (RDP) or SSH sessions alive.
 - Testing idle-detection logic in your own software.
 - Simulating user presence during automated demos.
 
@@ -99,62 +112,62 @@ Ideal for developers, remote workers, or testers who need to keep systems awake 
 - Violating company IT policies.
 - Falsifying work hours or activity reports.
 
-> ⚖️ **Always comply with your employer’s acceptable use policy.** This script is **not** a tool for deception—it’s a utility for edge-case automation.
-
----
-
-## 🖥️ Requirements
-
-- **Windows 7 or later**
-- [AutoHotkey v2.0+](https://www.autohotkey.com/) installed
-- Administrative rights (not required, but some monitoring tools may interfere)
+> ⚖️ **Always comply with your employer’s acceptable use policy.** 
 
 ---
 
 ## 📥 Installation & Usage
 
-1. **Install AutoHotkey**  
+1. **Install AutoHotkey v2**  
    → Download from: [https://www.autohotkey.com/](https://www.autohotkey.com/)
 
 2. **Save the script**  
    Copy the provided `.ahk` code into a file named `WorkActivitySimulator.ahk`.
 
 3. **Run it**  
-   Double-click the `.ahk` file to launch.
+   Double-click the `.ahk` file. **Note:** No window will appear! Look at your system tray (bottom right, near the clock) for the AHK icon.
 
-4. **Use hotkeys** to control behavior (see [Hotkeys](#-hotkeys)).
-
-> 📝 The script runs silently in the system tray. Right-click the icon to exit or pause.
+4. **Interact**  
+   - Hover the tray icon to check status.
+   - Press `Ctrl + Alt + Shift + G` to open the Dashboard.
+   - Use hotkeys or the tray right-click menu to start modes.
 
 ---
 
-## 🛠️ Customization
+## 🛠️ Customization & Custom Icons
 
+### 1. Custom Tray Icons (Visual Feedback)
+You can make the tray icon change color/shape based on whether the script is running or stopped. 
+
+Create an `icons` folder next to your script/exe and add two files:
+```text
+WorkActivitySimulator.ahk (or .exe)
+└── icons/
+    ├── running.ico   (e.g., a green play icon)
+    └── stopped.ico   (e.g., a gray stop icon)
+```
+
+The script will automatically detect these files and swap the tray icon dynamically!
+
+### 2. Code Tweaks
 You can tweak behavior by editing these global variables at the top of the script:
 
 ```ahk
-global g_idle_threshold := 30000      ; Idle time in ms (default: 30 sec)
-global g_ignore_next_input := 0       ; Input ignore counter (do not change unless debugging)
+   global g_idle_threshold := 30000      ; Idle time in ms (default: 30 sec)
 ```
-
-- Adjust g_idle_threshold to change auto-activation delay.
-- Modify Random() ranges in activity functions to alter frequency or intensity.
-- Add more keys to the ~key:: list if your workflow uses special keys.
-
----
+* Adjust g_idle_threshold to change auto-activation delay.
+* Modify Random() ranges inside PerformMouseMove() or PerformMouseScroll() to alter frequency or intensity.
 
 ## 📦 Compilation (EXE)
-To run without AutoHotkey installed:
+To run without AutoHotkey installed, or to distribute to others:
 
-1. Right-click your .ahk file.
-2. Select "Compile Script" (requires AutoHotkey Compiler ).
-3. An .exe file is generated in the same folder.
->🔗 Compiler Info: 
+   1. Right-click your .ahk file.
+   2. Select "Compile Script" (requires AutoHotkey Compiler, included in v2 installation).
+   3. An .exe file is generated in the same folder.
 
-> - Included with AutoHotkey v2 installation.
-> - Docs: https://www.autohotkey.com/docs/v2/Scripts.htm#ahk2exe
-
->🔒 Note: Some antivirus tools flag compiled AHK scripts as suspicious (false positive). Always scan before distribution. 
+   > 🔒 Note: If you use Custom Icons, make sure to keep the icons/ folder in the exact same directory as your compiled .exe.
+   
+   > 🛡️ Antivirus Note: Some AV tools flag compiled AHK scripts as suspicious (false positive). You may need to add an exception.
 
 --- 
 
@@ -171,3 +184,4 @@ Questions or suggestions? Reach out via:
 
 - Email: aryanjay903@gmail.com
 - GitHub: ajstyles903/work-activity-simulator
+- LinkedIn: linkedin.com/in/aryan-prajapati-qa
